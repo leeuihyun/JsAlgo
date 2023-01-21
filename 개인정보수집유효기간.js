@@ -40,15 +40,12 @@ function solution(today, terms, privacies) {
         
         if(tmp[0] < arr[0]){
             answer.push(index + 1);
-            return;
         }else if(tmp[0] === arr[0]){
             if(tmp[1] < arr[1]){
                 answer.push(index+1);
-                return;
             }else if(tmp[1] === arr[1]){
                 if(tmp[2] < arr[2]){
                     answer.push(index+1);
-                    return;
                 }
             }
         }
