@@ -7,7 +7,7 @@ let answer = '';
 for(let i=0;i<number;i++){
     const str = input[i].split(' ')[0].toString().trim();
     if(str === 'pop'){
-        answer+=`${arr[0] ? arr[0] : -1}\n`;
+        answer+=`${arr[0] ? arr[0] : -1}\n`;.
         arr.shift();
     }else if(str === 'size'){
         answer += `${arr.length}\n`;
